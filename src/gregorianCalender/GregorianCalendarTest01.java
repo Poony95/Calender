@@ -18,7 +18,7 @@ public class GregorianCalendarTest01 {
 		String day = str[dy];
 		
 		String result = String.format("%d년 %d월 %d일(%s요일) %d시 %d분 %d초", 
-				yy,mm+1,dd,day,hh,MM,ss);
+				yy,mm+1,dd,day,hh,MM,ss); // 출력문 month +1해줘야함.
 		System.out.println(result);
 	}
 
